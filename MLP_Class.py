@@ -112,6 +112,7 @@ class MLP:
         self.input_layer = Layer(input_size)
         self.output_layer = Layer(output_size)
         self.layers = [self.input_layer, self.output_layer]
+        self.links = []
 
     def normal_dist(self, mean=0, stdev=1):
         """Assigns Weights to random number in a normal distribution
@@ -131,4 +132,33 @@ class MLP:
         position(int): Position in MLP where layer is added
         """
         np.insert(self.layers, position, Layer(size))
+
+    def gen_links(self):
+        """Generates Links for Layers to connect"""
+        for x in range(len(self.layers)-1):
+            self.links.append(
+                ConnectedLayerLink(self.layers[x], self.layers[x+1]))
+
+    def calc_neurons(self, input_data):
+        """"""
+        example_number = input_data.shape[-1]
+        for layer in self.layers:
+            layer.reset_layer(examples=example_number)
+        for x in range(len(self.links)):
+            self.links[x].propogate(self.layers[x],self.layers[x+1])
+
+
+
+class Trainer:
+
+    def __init__(self,loss_func=func.quadratic_loss):
+        """Training algorithm used on network. Defaults to standard MSE loss
+
+        Parameters:
+        loss_func(func, optional): Loss Function used, defaults to quadratic_loss
+        """
+        self.loss = loss_func
+
+
+    def train_network(self, network, examples):
 

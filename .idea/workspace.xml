@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd528b29-00ff-42fb-8215-5f50b22ddc07" name="Default Changelist" comment="" />
+    <list default="true" id="dd528b29-00ff-42fb-8215-5f50b22ddc07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MLP_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLP_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematical_Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mathematical_Functions.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,17 +16,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="md" value="1" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="4" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -31,45 +37,53 @@
         <counts>
           <entry key="Python Console" value="406" />
           <entry key="dummy" value="7" />
-          <entry key="py" value="6216" />
+          <entry key="md" value="7" />
+          <entry key="py" value="7275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="6622" />
+          <entry key="Python" value="7681" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MLP_Class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+            <state relative-caret-position="185">
+              <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#94#658#0" />
-                <element signature="e#94#647#1" />
-                <element signature="e#778#1159#0" />
-                <element signature="e#613#713#1" />
-                <element signature="e#1158#1198#0" />
-                <element signature="e#1633#1822#0" />
-                <element signature="e#1644#1717#1" />
-                <element signature="e#1759#1962#1" />
-                <element signature="e#2235#2308#0" />
-                <element signature="e#2226#2348#1" />
+                <element signature="e#77#1822#0" />
+                <element signature="e#1973#2518#0" />
+                <element signature="e#1973#2337#1" />
+                <element signature="e#2572#2937#0" />
+                <element signature="e#2572#2855#1" />
                 <element signature="e#2996#3218#1" />
-                <element signature="e#2672#2855#0" />
-                <element signature="e#2672#2745#1" />
-                <element signature="e#3162#3238#0" />
-                <element signature="e#3153#3236#1" />
-                <marker date="1565524772481" expanded="true" signature="1850:3831" ph="..." />
-                <marker date="1565524772481" expanded="true" signature="3841:3842" ph="..." />
-                <marker date="1565524772481" expanded="true" signature="3841:3847" ph="..." />
+                <element signature="e#3412#3826#0" />
+                <element signature="e#3412#3615#1" />
+                <element signature="e#3907#4148#1" />
+                <element signature="e#4379#4629#1" />
+                <element signature="e#4772#4970#1" />
+                <marker date="1565538559996" expanded="true" signature="5590:5591" ph="..." />
+                <marker date="1565538559996" expanded="true" signature="5590:5596" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -77,10 +91,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mathematical_Functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <marker date="1565517775496" expanded="true" signature="121:126" ph="..." />
+                <marker date="1565528509311" expanded="true" signature="85:90" ph="..." />
+                <marker date="1565528509311" expanded="true" signature="166:229" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,11 +110,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Mathematical Functions.py" />
         <option value="$PROJECT_DIR$/MLP Class.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Mathematical_Functions.py" />
         <option value="$PROJECT_DIR$/MLP_Class.py" />
       </list>
@@ -111,11 +130,13 @@
     <option name="width" value="1026" />
     <option name="height" value="729" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,7 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,13 +192,9 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20031796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20031796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.1886121" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -186,6 +202,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.1886121" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -195,43 +215,46 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mathematical_Functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <marker date="1565517775496" expanded="true" signature="121:126" ph="..." />
+            <marker date="1565528509311" expanded="true" signature="85:90" ph="..." />
+            <marker date="1565528509311" expanded="true" signature="166:229" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLP_Class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+        <state relative-caret-position="185">
+          <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#94#658#0" />
-            <element signature="e#94#647#1" />
-            <element signature="e#778#1159#0" />
-            <element signature="e#613#713#1" />
-            <element signature="e#1158#1198#0" />
-            <element signature="e#1633#1822#0" />
-            <element signature="e#1644#1717#1" />
-            <element signature="e#1759#1962#1" />
-            <element signature="e#2235#2308#0" />
-            <element signature="e#2226#2348#1" />
+            <element signature="e#77#1822#0" />
+            <element signature="e#1973#2518#0" />
+            <element signature="e#1973#2337#1" />
+            <element signature="e#2572#2937#0" />
+            <element signature="e#2572#2855#1" />
             <element signature="e#2996#3218#1" />
-            <element signature="e#2672#2855#0" />
-            <element signature="e#2672#2745#1" />
-            <element signature="e#3162#3238#0" />
-            <element signature="e#3153#3236#1" />
-            <marker date="1565524772481" expanded="true" signature="1850:3831" ph="..." />
-            <marker date="1565524772481" expanded="true" signature="3841:3842" ph="..." />
-            <marker date="1565524772481" expanded="true" signature="3841:3847" ph="..." />
+            <element signature="e#3412#3826#0" />
+            <element signature="e#3412#3615#1" />
+            <element signature="e#3907#4148#1" />
+            <element signature="e#4379#4629#1" />
+            <element signature="e#4772#4970#1" />
+            <marker date="1565538559996" expanded="true" signature="5590:5591" ph="..." />
+            <marker date="1565538559996" expanded="true" signature="5590:5596" ph="..." />
           </folding>
         </state>
       </provider>
