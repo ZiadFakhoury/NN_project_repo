@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd528b29-00ff-42fb-8215-5f50b22ddc07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConnectedLayerLink_Class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layer_Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trainer_Class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectedLayerLink_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectedLayerLink_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layer_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Layer_Class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MLP_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLP_Class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mathematical_Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mathematical_Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,22 +27,22 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="550" />
+          <entry key="Python Console" value="584" />
           <entry key="dummy" value="7" />
           <entry key="md" value="7" />
-          <entry key="py" value="11892" />
+          <entry key="py" value="12491" />
           <entry key="txt" value="73" />
         </counts>
       </usages-collector>
@@ -49,27 +50,50 @@
         <counts>
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="80" />
-          <entry key="Python" value="12442" />
+          <entry key="Python" value="13075" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MLP_Class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+            <state relative-caret-position="-176">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#160#738#0" />
+                <element signature="e#3907#4148#1" />
+                <element signature="e#781#904#0" />
+                <element signature="e#1002#1337#0" />
+                <element signature="e#4379#4629#1" />
+                <element signature="e#1397#1665#0" />
+                <element signature="e#4772#4970#1" />
+                <element signature="e#1700#1890#0" />
+                <element signature="e#1940#2344#0" />
+                <element signature="e#5321#5399#1" />
+                <element signature="e#2402#2648#0" />
+                <element signature="e#2706#2991#0" />
+                <element signature="e#3080#3719#0" />
+                <element signature="e#3859#3928#0" />
+                <marker date="1565635783846" expanded="true" signature="772:976" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trainer_Class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#3907#4148#1" />
-                <element signature="e#4379#4629#1" />
-                <element signature="e#4772#4970#1" />
-                <element signature="e#5321#5399#1" />
-                <element signature="e#5360#5462#2" />
-                <marker date="1565632263163" expanded="true" signature="129:135" ph="..." />
-                <marker date="1565632263163" expanded="true" signature="809:947" ph="..." />
+                <element signature="e#115#360#0" />
+                <element signature="e#115#298#1" />
+                <element signature="e#471#1071#0" />
+                <element signature="e#833#1071#0" />
               </folding>
             </state>
           </provider>
@@ -78,14 +102,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConnectedLayerLink_Class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+            <state relative-caret-position="305">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#230#775#0" />
                 <element signature="e#230#594#1" />
+                <element signature="e#829#1194#0" />
                 <element signature="e#829#1112#1" />
+                <element signature="e#1253#1620#0" />
                 <element signature="e#1253#1475#1" />
+                <element signature="e#1664#2095#0" />
                 <element signature="e#1669#1878#1" />
+                <element signature="e#2140#2599#0" />
                 <element signature="e#2140#2382#1" />
               </folding>
             </state>
@@ -96,29 +125,29 @@
         <entry file="file://$PROJECT_DIR$/Layer_Class.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#73#637#0" />
+                <element signature="e#73#457#1" />
+                <element signature="e#689#1093#0" />
+                <element signature="e#689#892#1" />
+                <element signature="e#1099#1139#0" />
+                <element signature="e#1574#1763#0" />
+                <element signature="e#1574#1726#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/einsumfunc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="1355" selection-start-line="1355" selection-end-line="1355" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="314">
+              <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#90#149#0" />
+                <marker date="1565635783906" expanded="false" signature="87:152" ph="..." />
               </folding>
             </state>
           </provider>
@@ -172,11 +201,12 @@
         <option value="$PROJECT_DIR$/Mathematical Functions.py" />
         <option value="$PROJECT_DIR$/MLP Class.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Mathematical_Functions.py" />
         <option value="$PROJECT_DIR$/Layer_Class.py" />
         <option value="$PROJECT_DIR$/ConnectedLayerLink_Class.py" />
-        <option value="$PROJECT_DIR$/Mathematical_Functions.py" />
-        <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/Trainer_Class.py" />
         <option value="$PROJECT_DIR$/MLP_Class.py" />
+        <option value="$PROJECT_DIR$/Test.py" />
       </list>
     </option>
   </component>
@@ -290,14 +320,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39679715" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3594306" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.26512456" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.26512456" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,27 +363,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConnectedLayerLink_Class.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/einsumfunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        <state relative-caret-position="13073">
+          <caret line="1355" selection-start-line="1355" selection-end-line="1355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trainer_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#230#594#1" />
-            <element signature="e#829#1112#1" />
-            <element signature="e#1253#1475#1" />
-            <element signature="e#1669#1878#1" />
-            <element signature="e#2140#2382#1" />
+            <element signature="e#115#360#0" />
+            <element signature="e#115#298#1" />
+            <element signature="e#471#1071#0" />
+            <element signature="e#833#1071#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
+    <entry file="file://$PROJECT_DIR$/ConnectedLayerLink_Class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="305">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#230#775#0" />
+            <element signature="e#230#594#1" />
+            <element signature="e#829#1194#0" />
+            <element signature="e#829#1112#1" />
+            <element signature="e#1253#1620#0" />
+            <element signature="e#1253#1475#1" />
+            <element signature="e#1664#2095#0" />
+            <element signature="e#1669#1878#1" />
+            <element signature="e#2140#2599#0" />
+            <element signature="e#2140#2382#1" />
           </folding>
         </state>
       </provider>
@@ -361,32 +407,51 @@
     <entry file="file://$PROJECT_DIR$/Layer_Class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#73#637#0" />
+            <element signature="e#73#457#1" />
+            <element signature="e#689#1093#0" />
+            <element signature="e#689#892#1" />
+            <element signature="e#1099#1139#0" />
+            <element signature="e#1574#1763#0" />
+            <element signature="e#1574#1726#1" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/einsumfunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="1355" selection-start-line="1355" selection-end-line="1355" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLP_Class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+        <state relative-caret-position="-176">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#160#738#0" />
+            <element signature="e#3907#4148#1" />
+            <element signature="e#781#904#0" />
+            <element signature="e#1002#1337#0" />
+            <element signature="e#4379#4629#1" />
+            <element signature="e#1397#1665#0" />
+            <element signature="e#4772#4970#1" />
+            <element signature="e#1700#1890#0" />
+            <element signature="e#1940#2344#0" />
+            <element signature="e#5321#5399#1" />
+            <element signature="e#2402#2648#0" />
+            <element signature="e#2706#2991#0" />
+            <element signature="e#3080#3719#0" />
+            <element signature="e#3859#3928#0" />
+            <marker date="1565635783846" expanded="true" signature="772:976" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3907#4148#1" />
-            <element signature="e#4379#4629#1" />
-            <element signature="e#4772#4970#1" />
-            <element signature="e#5321#5399#1" />
-            <element signature="e#5360#5462#2" />
-            <marker date="1565632263163" expanded="true" signature="129:135" ph="..." />
-            <marker date="1565632263163" expanded="true" signature="809:947" ph="..." />
+            <element signature="e#90#149#0" />
+            <marker date="1565635783906" expanded="false" signature="87:152" ph="..." />
           </folding>
         </state>
       </provider>

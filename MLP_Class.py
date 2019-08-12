@@ -1,7 +1,7 @@
 import numpy as np
-import Mathematical_Functions as func
 import Layer_Class as L
 import ConnectedLayerLink_Class as C
+
 
 class MLP:
 
@@ -23,6 +23,7 @@ class MLP:
         self.output_weight_derivatives = []
 
     def reset_derivatives(self):
+        """Empties derivative arrays before being recalculated"""
         self.neuron_neuron_derivatives = []
         self.neuron_weight_derivatives = []
         self.output_weight_derivatives = []
@@ -77,6 +78,7 @@ class MLP:
             self.neuron_weight_derivatives.append(self.links[x].dnext_dweight(self.layers[x]))
 
     def compute_output_weight_derivative(self):
+        """Computes output to weight derivatives and places them in a list of 4 dimensional arrays"""
         factor = self.neuron_neuron_derivatives[-1]
         a = self.neuron_weight_derivatives[-1].shape[0]
         self.output_weight_derivatives.append(np.einsum("npk, nh -> hnpk",
@@ -88,41 +90,6 @@ class MLP:
             factor = np.einsum("ijk,jhk -> ihk", factor, self.neuron_neuron_derivatives[-x])
         self.output_weight_derivatives.reverse()
 
-
-class Trainer:
-
-    def __init__(self, loss_func=func.quadratic_loss, dloss_func=func.v_dquadratic_loss):
-        """Training algorithm used on network. Defaults to standard MSE loss
-
-        Parameters:
-        loss_func(func, optional): Loss Function used, defaults to quadratic_loss
-        """
-        self.loss = loss_func
-        self.dloss = dloss_func
-
-    def train_network_once(self, network, examples_input_data, learning_rate, examples_output_data):
-        network.reset_derivatives()
-        network.calc_neurons(examples_input_data)
-        network.compute_neuron_neuron_derivative()
-        network.compute_neuron_weight_derivative()
-        network.compute_output_weight_derivative()
-
-        cost = 0
-        for i in range(examples_output_data.shape[-1]):
-            cost += self.loss(examples_output_data[:, i], network.layers[-1].neurons[:-1, i])
-        cost = cost/examples_output_data.shape[-1]
-        print(cost)
-
-        a = self.dloss(examples_output_data, network.layers[-1].neurons)
-        for x in range(len(network.links)):
-            t = network.links[x].weights - learning_rate*np.einsum(
-                "ik,inpk -> np",
-                a,
-                network.output_weight_derivatives[x])/examples_input_data.shape[-1]
-            network.links[x].update_weights(t)
-
-        cost = 0
-        for i in range(examples_output_data.shape[-1]):
-            cost += self.loss(examples_output_data[:, i], network.layers[-1].neurons[:-1, i])
-        cost = cost / examples_output_data.shape[-1]
-        print(cost)
+    def return_output_neurons(self):
+        """Returns output neurons"""
+        return self.layers[-1].neurons[:-1, :]
