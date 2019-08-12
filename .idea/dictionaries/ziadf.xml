@@ -3,9 +3,12 @@
     <words>
       <w>dactivate</w>
       <w>dactivation</w>
+      <w>dloss</w>
       <w>dnext</w>
       <w>dprev</w>
+      <w>dquadratic</w>
       <w>dsigmoid</w>
+      <w>dweight</w>
       <w>stdev</w>
       <w>vdsigmoid</w>
       <w>vsigmoid</w>
