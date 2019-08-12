@@ -10,7 +10,7 @@ def dsigmoid(x):
 
 
 def quadratic_loss(actual, expected):
-    return (np.sum((actual - expected))**2)/np.size(actual)
+    return np.sum((actual - expected)**2)/np.size(actual)
 
 
 def dquadratic_loss(actual, expected):
