@@ -14,7 +14,7 @@ class Layer:
         """
         self.examples = examples
         self.neurons = np.zeros((size + 1, examples))
-        self.neurons[size, :] = np.ones_like(self.neurons[size, :])
+        self.neurons[-1, :] = np.ones_like(self.neurons[-1, :])
         self.desc = desc
 
     def reset_layer(self, examples='-1'):
@@ -26,7 +26,10 @@ class Layer:
         if examples != -1:
             self.examples = examples
             self.neurons = np.zeros((self.neurons.shape[0], examples))
-            self.neurons[-1,:] = np.ones_like(self.neurons[-1,:])
+            self.neurons[-1, :] = np.ones_like(self.neurons[-1, :])
+        else:
+            self.neurons = np.zeros((self.neurons.shape[0], 1))
+            self.neurons[-1, :] = np.ones_like(self.neurons[-1, :])
 
     #def normal_dist(self, mean=0, stdev=1):
     #   """Sets neurons to normally distributed random values with mean and stdev
@@ -44,4 +47,4 @@ class Layer:
         Parameters:
         values(numpy array) = new values of neurons, must be in correct shape
         """
-        self.neurons[:-1,:] = values
+        self.neurons[:-1, :] = values

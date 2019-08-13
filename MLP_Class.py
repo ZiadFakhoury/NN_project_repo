@@ -62,8 +62,12 @@ class MLP:
         example_number = input_data.shape[-1]
         for layer in self.layers:
             layer.reset_layer(examples=example_number)
+        #print(input_data)
+        #self.layers[0].neurons[:-1, :] = input_data
+        self.layers[0].upload_neuron_values(input_data)
+        #print(self.layers[0].neurons[:10, :10])
         for x in range(len(self.links)):
-            self.links[x].propagate(self.layers[x],self.layers[x+1])
+            self.links[x].propagate(self.layers[x], self.layers[x+1])
 
     def compute_neuron_neuron_derivative(self):
         """Calculates derivatives between layers of all links and places them in

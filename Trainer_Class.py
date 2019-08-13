@@ -21,7 +21,7 @@ class Trainer:
         network.compute_neuron_weight_derivative()
         network.compute_output_weight_derivative()
 
-        a = self.dloss(examples_output_data, network.layers[-1].neurons)
+        a = self.dloss(examples_output_data, network.layers[-1].neurons[:-1, :])
 
         for x in range(len(network.links)):
             t = network.links[x].weights - learning_rate*np.einsum(
