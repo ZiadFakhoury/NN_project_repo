@@ -1,6 +1,8 @@
 import numpy as np
-import Trainer_Class as T
-import MLP_Class as M
+import sys
+sys.path.append("../../")
+import NN_Class_Construction.Trainer_Class as T
+import NN_Class_Construction.MLP_Class as M
 
 
 def compare(x, y):

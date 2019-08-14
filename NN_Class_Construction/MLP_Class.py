@@ -1,6 +1,6 @@
 import numpy as np
-import Layer_Class as L
-import ConnectedLayerLink_Class as C
+from NN_Class_Construction import Layer_Class as L
+from NN_Class_Construction import ConnectedLayerLink_Class as C
 
 
 class MLP:

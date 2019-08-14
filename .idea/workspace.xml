@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd528b29-00ff-42fb-8215-5f50b22ddc07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NN_Class_Construction/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NN-project-repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NN-project-repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectedLayerLink_Class.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Layer_Class.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MLP_Class.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_MNIST.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trainer_Class.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NN_Class_Construction/ConnectedLayerLink_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/NN_Class_Construction/ConnectedLayerLink_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NN_Class_Construction/MLP_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/NN_Class_Construction/MLP_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/MNIST/MNIST-Test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/MNIST/MNIST-Test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/MNIST/Test_MNIST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/MNIST/Test_MNIST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     <session id="655691960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -45,7 +47,7 @@
           <entry key="Python Console" value="1182" />
           <entry key="dummy" value="13" />
           <entry key="md" value="7" />
-          <entry key="py" value="13589" />
+          <entry key="py" value="13591" />
           <entry key="txt" value="73" />
         </counts>
       </usages-collector>
@@ -53,7 +55,43 @@
         <counts>
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="86" />
-          <entry key="Python" value="14771" />
+          <entry key="Python" value="14773" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-469874768">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="179" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="179" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cfg" value="1" />
+          <entry key="csv" value="1" />
+          <entry key="json" value="1" />
+          <entry key="py" value="5" />
+          <entry key="tcl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -73,10 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Problems/MNIST/Test_MNIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="204">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -85,19 +124,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/MNIST/MNIST-Test.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/NN_Class_Construction/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NN_Class_Construction/ConnectedLayerLink_Class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -106,13 +141,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/NN_Class_Construction/Layer_Class.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NN_Class_Construction/Trainer_Class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NN_Class_Construction/MLP_Class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -146,16 +194,19 @@
         <option value="$PROJECT_DIR$/MLP_Class.py" />
         <option value="$PROJECT_DIR$/Trainer_Class.py" />
         <option value="$PROJECT_DIR$/Test.py" />
-        <option value="$PROJECT_DIR$/Problems/MNIST/MNIST-Test.ipynb" />
         <option value="$PROJECT_DIR$/NN_Class_Construction/ConnectedLayerLink_Class.py" />
+        <option value="$PROJECT_DIR$/NN_Class_Construction/MLP_Class.py" />
+        <option value="$PROJECT_DIR$/Problems/MNIST/MNIST-Test.ipynb" />
+        <option value="$PROJECT_DIR$/NN_Class_Construction/__init__.py" />
+        <option value="$PROJECT_DIR$/NN_Class_Construction/__init.py__.py" />
+        <option value="$PROJECT_DIR$/Problems/MNIST/Test_MNIST.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="267" />
-    <option name="y" value="63" />
-    <option name="width" value="1026" />
-    <option name="height" value="729" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,24 +219,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="NN-project-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NN-project-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="NN_project_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NN_project_repo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="NN-project-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NN-project-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="NN_project_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NN_project_repo" type="462c0819:PsiDirectoryNode" />
               <item name="NN_Class_Construction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="NN-project-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NN-project-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="NN_project_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NN_project_repo" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="NN-project-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NN-project-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="NN_project_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NN_project_repo" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
               <item name="MNIST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NN_project_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NN_project_repo" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +251,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,7 +266,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jupyter Notebook.NN_project_repo">
+    <configuration name="NN_project_repo" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="NN-project-repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Ziad Fakhoury\Ziad Fakhoury Code\GitHub Repos\NN_project_repo\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NN-project-repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,6 +305,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Test" />
+      <item itemvalue="Jupyter Notebook.NN_project_repo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Test" />
@@ -268,10 +346,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="633" y="0" width="653" height="687" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20031796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4090909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,7 +361,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.0017793594" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.0018050541" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,16 +376,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/einsumfunc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13073">
@@ -316,81 +383,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP_Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#160#738#0" />
-            <element signature="e#3907#4148#1" />
-            <element signature="e#781#904#0" />
-            <element signature="e#1002#1337#0" />
-            <element signature="e#4379#4629#1" />
-            <element signature="e#1397#1665#0" />
-            <element signature="e#4772#4970#1" />
-            <element signature="e#1700#1890#0" />
-            <element signature="e#5321#5399#1" />
-            <element signature="e#2402#2648#0" />
-            <element signature="e#2706#2991#0" />
-            <element signature="e#3080#3719#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/MLP_Class.py" />
+    <entry file="file://$PROJECT_DIR$/Layer_Class.py" />
+    <entry file="file://$PROJECT_DIR$/Trainer_Class.py" />
+    <entry file="file://$PROJECT_DIR$/ConnectedLayerLink_Class.py" />
+    <entry file="file://$PROJECT_DIR$/Test_MNIST.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Layer_Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="e#73#457#1" />
-            <element signature="e#689#892#1" />
-            <element signature="e#1099#1139#0" />
-            <element signature="e#1574#1726#1" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trainer_Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#115#360#0" />
-            <element signature="e#115#298#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConnectedLayerLink_Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#230#594#1" />
-            <element signature="e#829#1194#0" />
-            <element signature="e#829#1112#1" />
-            <element signature="e#1253#1475#1" />
-            <element signature="e#1664#2095#0" />
-            <element signature="e#1669#1878#1" />
-            <element signature="e#2140#2599#0" />
-            <element signature="e#2140#2382#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_MNIST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#90#149#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Mathematical_Functions.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -403,7 +408,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/MNIST/Test_MNIST.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NN_Class_Construction/MLP_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NN_Class_Construction/Trainer_Class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -412,17 +434,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NN_Class_Construction/Layer_Class.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/MNIST/test.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Problems/MNIST/MNIST-Test.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="4" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NN_Class_Construction/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NN_Class_Construction/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/NN_Class_Construction/ConnectedLayerLink_Class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/MNIST/Test_MNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

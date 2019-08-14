@@ -1,5 +1,5 @@
 import numpy as np
-from 'NN-project-repo' import Mathematical_Functions as func
+import Mathematical_Functions as func
 
 
 class ConnectedLayerLink:
